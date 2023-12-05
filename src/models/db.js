@@ -5,8 +5,6 @@ const sequelize = new Sequelize("dbmind", "root", "root", {
   dialect: "mysql",
 });
 
-//apresentar a msg se estiver em desenvolvimento
-//nao mostrar ao usuario esta mensagem
 sequelize
   .authenticate()
   .then(function () {

@@ -1,51 +1,42 @@
-instalar dependencias indicada pelo package.json
+# Backend Case Mind Consulting
 
-### npm install
+## Descrição do Projeto
 
-Rodar projeto com nodemon
+O projeto tem como objetivo um Crud de cursos, podendo ser acessado apenas pelos professores cadastrados com email e senha juntamente com o token.
 
-### nodemon app.js
+## Importante
 
-Sequencia para criar o projeto
+- Instalar as dependências do projeto
+- NodeJs
+- npm install
 
-Criar package
+### Rotas
 
-### npm init
+- http://localhost:5000/login (Email e Senha)[POST]
+- http://localhost:5000/user (Criar usuário)[POST]
+- http://localhost:5000/user (Listar todos os usuários)[GET]
+- http://localhost:5000/user/id (Deletar curso a partir do ID)[DELETE]
 
-Gerenciar requisicoes, rotas e URLS, entre outras funcionalidades
+- http://localhost:5000/course (Criar curso)[post]
+- http://localhost:5000/course (Listar cursos)[GET]
+- http://localhost:5000/course/id (Editar curso através do ID)[PUT]
+- http://localhost:5000/course/id (Deletar curso através do ID)[DELETE]
 
-### npm install express
+### Para iniciar o projeto
 
-Rodar projeto
+```
+$ npm run start
+```
 
-### node app.js
+### Efetuar o login
 
-Acessar
+Email: admin@admin  
+Senha: 123
 
-### http://localhost:5000
+# Autores
 
-instalar o módulo para reiniciar o servidor sempre que houver alteração no código fonte
+Rafael Rodrigues
 
-### npm install -g nodemon
+# Licença
 
-### npm install --save-dev nodemon
-
-Rodar projeto com nodemon
-
-### nodemon app.js
-
-Instalar a dependência Sequelize(biblioteca js que facilita o gerenciamento de um banco SQL)
-
-### npm install --save sequelize
-
-driver do banco de dados
-
-### npm install --save mysql2
-
-Criar banco no MYSQL
-
-### create database dbMind character set utf8mb4 collate utf8mb4_unicode_ci;
-
-Multer é um middleware node.js para manipular multipart/form-data, usado para upload de arquivos.
-
-### npm install --save multer
+-Nenhuma
