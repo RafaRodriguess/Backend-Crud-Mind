@@ -9,6 +9,7 @@ O projeto tem como objetivo um Crud de cursos, podendo ser acessado apenas pelos
 - Instalar as dependências do projeto
 - NodeJs
 - npm install
+- Dentro de src/models/db.js -> alterar os dados do banco mysql ( "nomeBanco", "root", "senha")
 
 ### Rotas
 
